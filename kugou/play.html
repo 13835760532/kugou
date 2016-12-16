@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="screen-orientation" content="portrait"> 
+        <meta name="x5-orientation" content="portrait | landscape" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="full-screen" content="yes">   
+        <meta name="format-detection" content="telephone=no, email=no" />
+        <link rel="stylesheet" href="css/index.css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/iscroll.js"></script>
+		<title></title>
+		 <script type="text/javascript">
+    function resize(originSize,type) {
+        type=type||"x";
+        if(type=="x"){
+            var widths=document.documentElement.clientWidth;
+            var scale=widths/originSize*100+"px";
+        }else if(type="y"){
+            var heights=document.documentElement.clientHeight;
+            var scale=heights/originSize*100+"px";
+
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=scale;
+    }
+    resize(750,"x")
+   
+ </script>
+	</head>
+	<body  onload="loaded()">
+		<div class="box play-box">
+			<div class="play-header">
+				冬天的秘密
+				<div class="authors">周传雄</div>
+				<div class="return"><a href="list.html"><img src="img/s-4.png" alt="" height="40%"/></a></div>
+			</div>
+			<ul class="pinzhi">
+				<li>高品</li>
+				<li>音效</li>
+				<li>封面</li>
+			</ul>
+			<div class="geci">
+				<div id="wrapper1">
+					<div id="scroller">
+					    <div class="geci-box">
+					        <h1>周传雄——冬天的秘密</h1>
+					        <h3>作曲：周传雄</h3>
+					        <div class="dian"></div>
+					        <p>取暖回忆    回忆无效</p>
+					        <p>有阳光    还感觉冷</p>
+					        <p class="active-geci">我站在 分隔岛上</p>
+					        <p>没有方向   不想回家</p>
+					        <p>你太善良   你太美丽</p>
+					        <p>我讨厌   这样想你的自己</p>
+					        <p>取暖回忆    回忆无效</p>
+					        <p>有阳光    还感觉冷</p>
+					        <p>我站在 分隔岛上</p>
+					        <p>没有方向   不想回家</p>
+					        <p>你太善良   你太美丽</p>
+					        <p>我讨厌   这样想你的自己</p>
+				        </div>
+				    </div>
+				</div>
+			
+				
+			</div>
+			<div class="play-tool">
+				<ul class="play-tool1">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="play-progress">
+					<div class="start-time">0:00</div>
+				    <div class="progress">
+				        <div class="yuan"></div>
+			        </div>
+			        <div class="end-time">4:30</div>
+			    </div>
+			    <ul class="play-footer">
+			    	<li class="lis1 iconfont icon-shunxubofang">下一曲</li>
+			    	<li>下一曲</li>
+			    	<li>下一曲</li>
+			    	<li>下一曲</li>
+			    	<li class="iconfont icon-liebiao lis5">下一曲</li>
+			    </ul>
+			</div>
+			
+		</div>
+	</body>
+</html>
+<script>
+	 function loaded(){
+	 	var myScroll
+	 myScroll = new IScroll('#wrapper1', { mouseWheel: true });
+    }
+</script>

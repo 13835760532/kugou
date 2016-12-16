@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="screen-orientation" content="portrait"> 
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">   
+    <meta name="format-detection" content="telephone=no, email=no" />
+    
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="font/iconfont.css" />
+
+  	<script src="js/jquery.js"></script>
+  	<script src='js/iscroll.js'></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <title>list</title>
+    <script type="text/javascript">
+    function resize(originSize,type) {
+        type=type||"x";
+        if(type=="x"){
+            var widths=document.documentElement.clientWidth;
+            var scale=widths/originSize*100+"px";
+        }else if(type="y"){
+            var heights=document.documentElement.clientHeight;
+            var scale=heights/originSize*100+"px";
+
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=scale;
+    }
+    resize(750,"x")
+    function loaded(){
+	var myScroll = new IScroll('#wrapper', { mouseWheel: true ,
+	click:true});
+    }
+</script>
+</head>
+<body onload="loaded()">
+	<div id="header">
+		<div class="list-header">
+			<ul class="list-header-btns">
+				<li><a href="index.html"><img src="img/s-4.png" alt=""/></a></li>
+				<li>本地音乐</li>
+				<li class="iconfont icon-liebiao"></li>
+			</ul>
+		</div>
+		<div class="list-btns">
+	    	<div class="swiper-container swiper1">
+                <div class="swiper-wrapper" style="line-height:1rem;">
+                    <div class="swiper-slide active-nav">单曲<span>/14</span></div>
+                    <div class="swiper-slide">歌手<span>/6</span></div>
+                    <div class="swiper-slide">专辑<span>/2</span></div>
+                    <div class="swiper-slide">文件夹<span>/10</span></div>
+                </div>
+            </div>
+	    </div>
+	   
+	</div>
+	<div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="play">
+	    	        <ul class="plays">
+	    	            <li class="shunxu"></li>
+	    		        <li>顺序播放</li>
+	    		        <li class="li3">顺序</li>
+	    		        <li class="li4">顺序</li>
+	    		        <li class="li5">顺序</li>
+	    	        </ul>
+	            </div>
+            	<div id="wrapper">
+		            <div id="scroller">
+			            <ul class="song-list">
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    			    <div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			       <div class="mess iconfont icon-hulve"></div>
+                    			</div>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    		<li class="song-message">
+                    			<a href="play1.html">
+                    				<div class="jia iconfont icon-tianjia1"></div>
+                    			<div class="song">
+                    				<div class="song-left">
+                    					<div class="song-title">全世界谁倾听你</div>
+                    					<div class="song-author">林宥嘉</div>
+                    				</div>
+                    			    
+                    			    <div class="mess iconfont icon-hulve"></div>
+                    			    
+                    			</div>
+                    			</a>
+                    		</li>
+                    	</ul>
+		            </div>
+	            </div>
+            </div>
+            <div class="swiper-slide">
+                <input type="text" value="搜索" id="singer"  />
+                <ul class="singer">
+                     <li>
+                        <div class="singer-img"></div>
+                        <div class="song-boxs">
+                            <p class="singer-name">林宥嘉</p>
+                            <div class="num">1首</div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="singer-img"></div>
+                        <div class="song-boxs">
+                            <p class="singer-name">林宥嘉</p>
+                            <div class="num">1首</div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="singer-img"></div>
+                        <div class="song-boxs">
+                            <p class="singer-name">林宥嘉</p>
+                            <div class="num">1首</div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="singer-img"></div>
+                        <div class="song-boxs">
+                            <p class="singer-name">林宥嘉</p>
+                            <div class="num">1首</div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="singer-img"></div>
+                        <div class="song-boxs">
+                            <p class="singer-name">林宥嘉</p>
+                            <div class="num">1首</div>
+                        </div>
+                     </li>
+                </ul>
+                <div class="nums">6位歌手</div>
+            </div>
+            <div class="swiper-slide">专辑<span>/14</span></div>
+            <div class="swiper-slide">文件夹<span>/14</span></div>
+        </div>
+    </div>
+	
+	<div id="footer">
+		 <div class="img-box">
+			
+		    </div>
+		    <div class="song-box">
+			
+			    <div class="progress">
+				    <div class="yuan"></div>
+			    </div>
+			    <div class="song-name">放弃</div>
+			    <div class="liebiao iconfont icon-liebiao"></div>
+			    <div class="next iconfont icon-xiayiqu"></div>
+			    <div class="stop iconfont icon-zanting" style="margin-top:0.12rem;font-size: 0.4rem;"></div>
+		        <div class="author">林宥嘉</div>
+		    </div>
+	</div>
+</body>
+</html>
+<script>
+	$(function(){
+		var mySwiper2 = new Swiper('.swiper1',{
+        watchSlidesProgress : true,
+        watchSlidesVisibility : true,
+        slidesPerView : 4,
+onTap: function(){
+      mySwiper3.slideTo( mySwiper2.clickedIndex)
+		}
+})
+var mySwiper3 = new Swiper('.swiper2',{
+	 direction: 'horizontal',
+        onSlideChangeStart: function(){
+		updateNavPosition()
+		}
+
+})
+function updateNavPosition(){
+		$('.swiper1 .active-nav').removeClass('active-nav')
+		var activeNav = $('.swiper1 .swiper-slide').eq(mySwiper3 .activeIndex).addClass('active-nav');
+
+
+		if (!activeNav.hasClass('swiper-slide-visible')) {
+			if (activeNav.index()>mySwiper2.activeIndex) {
+				var thumbsPerNav = Math.floor(mySwiper2.width/activeNav.width())-1
+				mySwiper2.slideTo(activeNav.index()-thumbsPerNav)
+			}  
+			else {
+         
+				mySwiper2.slideTo(activeNav.index())
+			}	
+		}
+		
+    }
+	})
+</script>

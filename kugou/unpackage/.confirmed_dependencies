@@ -1,0 +1,58 @@
+{
+	"index.html": {
+		"resources": [
+			"login.html",
+			"img/2.png",
+			"js/swiper.animate1.0.2.min.js",
+			"img/12.png",
+			"js/swiper.min.js",
+			"css/animate.min.css",
+			"img/13.png",
+			"img/3.png",
+			"img/search.png",
+			"css/index.css",
+			"img/11.png",
+			"img/5.png",
+			"img/1.png",
+			"img/6.png",
+			"img/banner.jpg",
+			"css/swiper.min.css",
+			"img/logo.png",
+			"img/bg.png",
+			"js/jquery.js",
+			"js/index.js",
+			"img/4.png",
+			"font/iconfont.css",
+			"font/iconfont.woff",
+			"list.html"
+		],
+		"refer": [
+			"login.html",
+			"list.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"js/app.js",
+			"js/mui.enterfocus.js"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"font/iconfont.css",
+			"css/index.css",
+			"js/swiper.animate1.0.2.min.js",
+			"font/iconfont.woff",
+			"css/swiper.min.css",
+			"js/swiper.min.js",
+			"css/animate.min.css",
+			"js/index.js",
+			"js/jquery.js",
+			"js/iscroll.js",
+			"img/S61211-20013438_12.gif",
+			"img/S61211-20013438_03.gif",
+			"img/S61211-20013438_10.gif",
+			"img/S61211-20013438_08.png"
+		]
+	}
+}
